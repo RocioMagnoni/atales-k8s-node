@@ -2,8 +2,6 @@
 resources:
   - back-deployment.yaml
   - back-service.yaml
-  - front-deployment.yaml
-  - front-service.yaml
   - ingress.yaml
   
 
