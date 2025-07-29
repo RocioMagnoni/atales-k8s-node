@@ -1,7 +1,5 @@
 # infra/base/kustomization.yaml
 resources:
-  - back-deployment.yaml
-  - back-service.yaml
   - front-deployment.yaml
   - front-service.yaml
   - ingress.yaml
