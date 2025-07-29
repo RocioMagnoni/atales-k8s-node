@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:  # 👈 este estaba mal indentado
+      containers:
+        - name: backend
+          image: rociomagnoni/backend-atal:REPLACEME
+          ports:
+            - containerPort: 3001
+

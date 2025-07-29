@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: atales
+spec:
+  template:
+    spec:
+      containers:
+        - name: atales
+          image: rociomagnoni/backend-atal:REPLACEME 
+
