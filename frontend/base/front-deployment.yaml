@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: rociomagnoni/frontend-atal:REPLACEME
+          image: rociomagnoni/atales-frontend:REPLACEME
           ports:
             - containerPort: 80
