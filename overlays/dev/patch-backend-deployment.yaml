@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: atales
+  name: backend-deployment #atales <--cambie por el nombre de el del deployment base
 spec:
   template:
     spec:
