@@ -1,8 +1,9 @@
 # overlays/dev/kustomization.yaml
-namespace: ambiente-dev-prueba
+#namespace: ambiente-prod-prueba
 
 resources:
   - ../../base
 
 patchesStrategicMerge:
+  - patch-backend-deployment.yaml
   - patch-frontend-deployment.yaml
