@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: atales
+  name: frontend-deployment #atales
 spec:
   template:
     spec:
       containers:
-        - name: atales
+        - name: frontend #atales <---cambiado
           image: rociomagnoni/atales-frontend:dev-71df3b3
 
