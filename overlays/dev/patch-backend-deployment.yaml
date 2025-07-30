@@ -6,6 +6,6 @@ spec:
   template:
     spec:
       containers:
-        - name: atales
+        - name: backend #atales <--- aca tambien
           image: rociomagnoni/atales-backend:dev-16973c5
 
