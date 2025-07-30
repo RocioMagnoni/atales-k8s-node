@@ -16,5 +16,5 @@ spec:
         - name: backend
           image: rociomagnoni/atales-backend:REPLACEME
           ports:
-            - containerPort: 3001
+            - containerPort: 3000
 
