@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
         - name: backend #atales <--- aca tambien
-          image: rociomagnoni/atales-backend:dev-bc0d3ba
+          image: rociomagnoni/atales-backend:dev-1df5989
 
