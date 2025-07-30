@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
         - name: atales
-          image: rociomagnoni/atales-backend:REPLACEME 
+          image: rociomagnoni/atales-backend:dev-16973c5
 
