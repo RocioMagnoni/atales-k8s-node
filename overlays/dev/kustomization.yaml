@@ -1,9 +1,0 @@
-# overlays/dev/kustomization.yaml
-#namespace: ambiente-dev-prueba
-
-resources:
-  - ../../base
-
-patchesStrategicMerge:
-  - patch-backend-deployment.yaml
-  - patch-frontend-deployment.yaml
