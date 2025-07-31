@@ -1,5 +1,5 @@
 # overlays/dev/kustomization.yaml
-#namespace: ambiente-test-prueba
+namespace: ambiente-atales-stg
 
 resources:
   - ../../base
