@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
         - name: backend
-          image: rociomagnoni/atales-backend:prod-0795810
+          image: rociomagnoni/atales-backend:prod-44cb11b
 
