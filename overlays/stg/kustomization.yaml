@@ -1,5 +1,7 @@
 # overlays/dev/kustomization.yaml
 #namespace: ambiente-test-prueba
+#para el ingress
+namePrefix: stg-
 
 resources:
   - ../../base
