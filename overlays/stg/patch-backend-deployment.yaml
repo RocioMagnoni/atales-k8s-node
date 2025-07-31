@@ -11,6 +11,8 @@ spec:
           image: rociomagnoni/atales-backend:stg-c45398b
           resources:
             requests:
-              cpu: "100m"
+              cpu: "100m" #0,1 CPU reservado requests
+              memory: "128Mi" #medmoria reservada
             limits:
-              cpu: "500m"
+              cpu: "500m" #0,5 CPU reservado limits
+              memory: "512Mi" #memoria tope

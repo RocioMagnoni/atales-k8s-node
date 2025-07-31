@@ -4,6 +4,8 @@ namespace: ambiente-atales-prod
 
 resources:
   - ../../base
+  - hpa.yaml
+  # - netpolicy.yaml
 
 patchesStrategicMerge:
   - patch-backend-deployment.yaml

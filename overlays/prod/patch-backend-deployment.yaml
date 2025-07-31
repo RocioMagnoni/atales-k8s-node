@@ -9,4 +9,11 @@ spec:
       containers:
         - name: backend
           image: rociomagnoni/atales-backend:prod-44cb11b
+          resources:
+            requests:
+              cpu: "200m" #0,2 CPU reservado requests
+              memory: "256Mi" #medmoria reservada
+            limits:
+              cpu: "1" #0,5 CPU reservado limits
+              memory: "1Gi" #memoria tope
 
