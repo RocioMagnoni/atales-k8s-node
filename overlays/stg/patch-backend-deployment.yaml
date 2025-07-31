@@ -9,4 +9,8 @@ spec:
       containers:
         - name: backend
           image: rociomagnoni/atales-backend:stg-c45398b
-
+          resources:
+            requests:
+              cpu: "100m"
+            limits:
+              cpu: "500m"

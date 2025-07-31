@@ -4,6 +4,7 @@ namespace: ambiente-atales-stg
 
 resources:
   - ../../base
+  - hpa.yaml
 
 patchesStrategicMerge:
   - patch-backend-deployment.yaml
