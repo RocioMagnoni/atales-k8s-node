@@ -20,8 +20,8 @@ spec:
           env:
             - name: PORT
               valueFrom:
-                secretKeyRef:
-                  name: backend-secret
+                configMapKeyRef:
+                  name: backend-config
                   key: PORT
             - name: MONGO_URI
               valueFrom:
