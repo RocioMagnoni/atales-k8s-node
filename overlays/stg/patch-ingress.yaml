@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: atales-ingress   # <- sin el "stg-", ¡Kustomize lo agrega automáticamente!
+  name: atales-ingress-stg   # <- sin el "stg-", ¡Kustomize lo agrega automáticamente!
 spec:
   rules:
     - host: atales.local.stg
