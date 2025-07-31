@@ -1,6 +1,4 @@
-# overlays/dev/kustomization.yaml
-
-
+# overlays/stg/kustomization.yaml
 namespace: ambiente-atale-stg
 
 
