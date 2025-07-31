@@ -4,4 +4,27 @@ metadata:
   name: atales-ingress
 spec:
   rules:
-    - host: atales.local.stg
+  - host: atales.local.stg
+    http:
+      paths:
+      - path: /api/login
+        pathType: Prefix
+        backend:
+          service:
+            name: backend-service
+            port:
+              number: 80
+      - path: /api/register
+        pathType: Prefix
+        backend:
+          service:
+            name: backend-service
+            port:
+              number: 80
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: frontend-service
+            port:
+              number: 80
