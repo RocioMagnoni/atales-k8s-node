@@ -1,5 +1,4 @@
-# overlays/dev/kustomization.yaml
-
+# overlays/prod/kustomization.yaml
 namespace: ambiente-atales-prod
 
 
