@@ -1,5 +1,6 @@
 # overlays/dev/kustomization.yaml
-namespace: ambiente-atales-dev
+namespace: ambiente-atale-dev
+
 
 resources:
   - ../../base

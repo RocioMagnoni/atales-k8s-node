@@ -1,5 +1,8 @@
 # overlays/dev/kustomization.yaml
-namespace: ambiente-atales-stg
+
+
+namespace: ambiente-atale-stg
+
 
 resources:
   - ../../base
@@ -7,3 +10,5 @@ resources:
 patchesStrategicMerge:
   - patch-backend-deployment.yaml
   - patch-frontend-deployment.yaml
+  - patch-secret.yaml
+  - patch-configmap.yaml
