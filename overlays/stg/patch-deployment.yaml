@@ -7,5 +7,4 @@ spec:
     spec:
       containers:
         - name: atales-app
-          image:
-            - name: rociomagnoni/atales-app:REPLACEME
+          image: rociomagnoni/atales-app:REPLACEME
