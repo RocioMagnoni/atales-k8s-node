@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
         - name: atales-app
-          image: rociomagnoni/atales-app:REPLACEME
+          image: rociomagnoni/atales-app:stg-22fc5ba
