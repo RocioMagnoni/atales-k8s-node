@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: atales-app
+  labels:
+    app: atales-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: atales-app
+  template:
+    metadata:
+      labels:
+        app: atales-app
+    spec:
+      containers:
+        - name: atales-app
+          image: rociomagnoni/atales-app:REPLACEME
+          ports:
+            - containerPort: 3000 #puerto donde escucha la app y coincide con el targetPort del service
