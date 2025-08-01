@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: rociomagnoni/atales-frontend:stg-133f1a4
+          image: rociomagnoni/atales-frontend:stg-d75b5d0
 
