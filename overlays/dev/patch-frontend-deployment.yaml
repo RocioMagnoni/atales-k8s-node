@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
         - name: frontend #atales <---cambiado
-          image: rociomagnoni/atales-frontend:dev-18eb36f
+          image: rociomagnoni/atales-frontend:dev-edd4b97
 
